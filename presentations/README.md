@@ -1,6 +1,6 @@
-## Progress presentation for COMM313 GroupProject
+## Presentations for COMM313 Group Project
 
-* This folder should contain the files for your project presentations.
+* This folder should contain the subfolders and files for your project presentations.
 
 ### Initial Presentation
 
