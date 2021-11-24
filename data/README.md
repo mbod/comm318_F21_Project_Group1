@@ -1,12 +1,18 @@
 ## Data files for COMM318 Group Project
 
-* This folder should contain the data files you have used in your analysis
-
-
-* You should update this README file to list and describe the files.
-
-
-* You can also create additional sub-folders to better organize your data.
-    * For example, you could have a folder called `raw` or `orig` to contain the original data files you downloaded and then a folder called `final` or `clean` that contains versions of these data sheets that you have worked with to clean up missing data, to subset or merge etc.
+<div style="background-color: #f0f0ff; font-size: 18px">
     
+### PLEASE UPDATE THIS FILE
+   
+* Change the title 
+* Add a summary paragraph
+* List and describe each of the files, e.g.
     
+</div>
+
+
+* `2020_election.csv` - ADD DESCRIPTION
+* `county_health.csv` - ADD DESCRIPTION
+* `election_clean.csv` - ADD DESCRIPTION
+* `health_clean.csv` - ADD DESCRIPTION
+* `socioeconomic_data_clean.csv` - ADD DESCRIPTION
