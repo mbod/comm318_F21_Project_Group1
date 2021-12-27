@@ -1,12 +1,3 @@
-## Blog post of your data story for COMM318 Group Project
+## Voting Health Paradox
 
-* This folder should contain the files that contain the output of all your data analysis. 
-
-* You should create an engaging data blog that stands alone (i.e. it doesn't require the reader to look over all your analysis notebooks). 
-
-* Update this README file to describe the presentation.
-
-
-
-
-
+This folder contains out final data story. Our story focuses on how American counties vote. Rebuplicans tend to oppose expanding health care, while democrats favor expanding state provided healthcare. However, there seems to be a paradox where voters who would benefit from expanded health care vote against it. Our data story analyzes the presence of this paradox and potential causes for it. we hope you enjoy reading it!

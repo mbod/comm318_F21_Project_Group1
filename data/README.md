@@ -1,18 +1,14 @@
 ## Data files for COMM318 Group Project
 
-<div style="background-color: #f0f0ff; font-size: 18px">
-    
-### PLEASE UPDATE THIS FILE
-   
-* Change the title 
-* Add a summary paragraph
-* List and describe each of the files, e.g.
-    
-</div>
+This folder contains all data used for our project, both cleaned and uncleaned. 
 
-
-* `2020_election.csv` - ADD DESCRIPTION
-* `county_health.csv` - ADD DESCRIPTION
-* `election_clean.csv` - ADD DESCRIPTION
-* `health_clean.csv` - ADD DESCRIPTION
-* `socioeconomic_data_clean.csv` - ADD DESCRIPTION
+* `alaska_maps` - This folder contains maps for Alaska. We had an issue creating geoplots for voting data with alaska because unlike other states the voting districts are not the same as the counties in Alaska, so we used these maps to try to fix it.  
+* `2020_election.csv` - This is the uncleaned voting data csv file from https://github.com/tonmcg/US_County_Level_Election_Results_08-20. For each county it includes county identification data (name, fips, state name) and voting measures including republican and democrat votes, total votes, the difference between republican and democrat votes, the percentage of votes for each party, and the per point difference between party votes. 
+* `combined_df.csv` - This is our combined data set that includes the variables we decided to analyize from the different cleaned datasets. It includes variables for severe housing problems, % uninsured, high school graduation rate,% unemployed, income inequality, median household income, % rural, residential segregation, median household income (white), median household income (black), population, votes for both republican and democrats, the difference in votes, the percentage of votes for each party,  the per point difference in party votes, overal, mental, and physical health, life expectancy, variables describing the number of physicians, and income inequality for each county.
+* `county.geo.json` - This json file contains county level geographical data used for geoplots. 
+* `county_health.csv` - This is the uncleaned health and socieoconomic data from https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation. It includes over 700 variables for health and socieoconomic data at the county level. Essentially every non-voting realted variable we analyized came from this data set. 
+* `election_clean.csv` - This is the cleaned election data set. Besides the original varibales that have been cleaned up, it includes as outcome variable, either "Rep" or "Dem" describing if the county voted republican or democratic respectively. 
+* `health_clean.csv` - This is one of the cleaned health data frames. This data set includes variables for overall, physical, and mental health, life expectancy, variables describing the number of physicians in each county, and income inequality (which was added to be analyzed in the combined ntoebook).
+* `health_clean_smoking_flu.csv` - This is the second cleaned health data set. This data set includes varaibles for adult smoking , flu vaccinations, and child mortality rates. 
+* `socioeconomic_data_clean.csv` - This is the cleaned socieoeconomic data set. This data set includes varaibles for % uninsured, high school graduation rate, % unemployed, income inequality, median household income, % rural, residential segregation, median household income (white), median household income (black), and population.
+* `us_counties_albers.geojson` - This files includes the geo data needed for county level geoplots. 
